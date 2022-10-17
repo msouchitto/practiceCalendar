@@ -46,7 +46,8 @@ namespace practiceCalendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.testButton);
             this.Name = "Form1";
             this.Text = "Calendar";
